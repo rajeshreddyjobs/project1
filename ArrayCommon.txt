@@ -1,0 +1,17 @@
+public class ArrayCommon {
+	public static void main(String[] args) {
+		int[] a = { 10, 20, 30, 40, 50 };
+		int[] b = { 15, 20, 25, 10, 30, 35, 40, 45, 50 };
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0; j < b.length; j++) {
+
+				if (a[i] == a[j]) {
+					System.out.println("This Element is common :" + a[j]);
+				} else {
+					System.out.println("This is not common elt :" + a[j]);
+				}
+			}
+		}
+	}
+
+}
