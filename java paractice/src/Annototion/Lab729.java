@@ -13,4 +13,4 @@ public class Lab729 {
 
 	}
 
-}
+}                       //@suppressWarnings and @Deprecated are Completed
