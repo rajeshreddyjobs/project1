@@ -1,0 +1,10 @@
+package Increament.And.Decreament;
+
+public class incrementANDDecrement {
+
+	public static void main(String[] args) {
+	int a=10;
+	int b=--a+ a++ + ++a + a--;
+	
+	}
+	}

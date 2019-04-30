@@ -1,0 +1,24 @@
+package Increament.And.Decreament;
+
+public class incrementANDDecrement {
+
+	public static void main(String[] args) {
+		raj r=new raj();
+		r.A();
+		/*r.A(10);
+		r.B(10,20);
+		*/
+	}
+
+}
+class raj{
+	void A(int...a) {
+		System.out.println(a);
+	}
+	void B(int a,int...b) {
+		System.out.println(a+"--"+b);
+	}
+	/*void B(int...b,int a) {
+		System.out.println(a,b);
+	}*/	
+	}

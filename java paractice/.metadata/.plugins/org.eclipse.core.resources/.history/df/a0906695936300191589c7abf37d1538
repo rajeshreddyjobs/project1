@@ -1,0 +1,20 @@
+package Singleton;
+
+public class Lab537 {
+
+	public static void main(String[] args) {
+	Single s1=Single.getSingle();
+	Single s2=Single.getSingle();
+	System.out.println(s1==s2);
+
+	}
+
+}
+class Single{
+	private Single() {}
+	private static Single s=new Single();
+	
+	public static Single getSingle() {
+		return s;
+	}
+}

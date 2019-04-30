@@ -1,0 +1,11 @@
+package Math;
+
+public class Lab532 {
+
+	public static void main(String[] args) {
+char ch='1';
+int a=Character.getNumericValue(ch);
+System.out.println(a);
+	}
+
+}

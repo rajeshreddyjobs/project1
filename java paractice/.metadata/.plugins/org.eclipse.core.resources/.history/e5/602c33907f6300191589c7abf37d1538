@@ -1,0 +1,18 @@
+package Math;
+
+public class Lab532 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Math.E  : "+Math.E);
+		System.out.println("Math.PI  : "+Math.PI);
+		System.out.println("Math.sqrt(6)  : "+Math.sqrt(6));
+		System.out.println("Math.pow(10,3)  : "+Math.pow(10,3));
+		System.out.println("Math.abs(-99)  : "+Math.abs(-99));
+		System.out.println("Math.max(10,20)  : "+Math.max(10,20));
+		System.out.println("Math.min(10,20)  : "+Math.min(10,20));
+
+
+	}
+
+}
